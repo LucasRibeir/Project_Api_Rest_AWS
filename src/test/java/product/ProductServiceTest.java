@@ -1,13 +1,13 @@
 package product;
 
-import com.lucasribeiro.anotaai.domain.category.Category;
-import com.lucasribeiro.anotaai.domain.product.Product;
-import com.lucasribeiro.anotaai.domain.product.ProductDto;
-import com.lucasribeiro.anotaai.repositories.ProductRepository;
-import com.lucasribeiro.anotaai.services.CategoryService;
-import com.lucasribeiro.anotaai.services.ProductService;
-import com.lucasribeiro.anotaai.services.aws.AwsSnsService;
-import com.lucasribeiro.anotaai.services.aws.MessageDto;
+import com.lucasribeiro.ApiRestAWS.domain.category.Category;
+import com.lucasribeiro.ApiRestAWS.domain.product.Product;
+import com.lucasribeiro.ApiRestAWS.domain.product.ProductDto;
+import com.lucasribeiro.ApiRestAWS.repositories.ProductRepository;
+import com.lucasribeiro.ApiRestAWS.services.CategoryService;
+import com.lucasribeiro.ApiRestAWS.services.ProductService;
+import com.lucasribeiro.ApiRestAWS.services.aws.AwsSnsService;
+import com.lucasribeiro.ApiRestAWS.services.aws.MessageDto;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

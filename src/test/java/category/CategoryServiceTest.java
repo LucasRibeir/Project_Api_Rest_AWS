@@ -1,9 +1,9 @@
 package category;
 
-import com.lucasribeiro.anotaai.domain.category.Category;
-import com.lucasribeiro.anotaai.domain.category.CategoryDto;
-import com.lucasribeiro.anotaai.repositories.CategoryRepository;
-import com.lucasribeiro.anotaai.services.CategoryService;
+import com.lucasribeiro.ApiRestAWS.domain.category.Category;
+import com.lucasribeiro.ApiRestAWS.domain.category.CategoryDto;
+import com.lucasribeiro.ApiRestAWS.repositories.CategoryRepository;
+import com.lucasribeiro.ApiRestAWS.services.CategoryService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
